@@ -1,63 +1,75 @@
-*,*::after, *::before{
-    margin: 0;
-    padding: 0 ;
-    box-sizing: border-box ;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header{
-    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, .3);
+header {
+  box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.3);
 }
 
-.logo-title{
-    font-size: 1.3rem;
-    font-weight: 500;
+.logo-title {
+  font-size: 1.3rem;
+  font-weight: 500;
 }
-.header-headline{
-    font-weight: 700;
-    color: #116149;
-}
-
-.header__line{
-    font-size: calc(14px + (16 - 14) * ((100vw - 540px) / (1140 - 540)));
-    
+.header-headline {
+  font-weight: 700;
+  color: #116149;
 }
 
-.text-muted{
-    font-weight: 600;
-    font-size: 1.001rem;
+.header__line {
+  font-size: calc(14px + (16 - 14) * ((100vw - 540px) / (1140 - 540)));
 }
 
-@media (max-width:600px){
-    .btn{
-        width: 90% ;
-    }
+.text-muted {
+  font-weight: 600;
+  font-size: 1.001rem;
 }
 
-.box-3-title{
-    font-weight: 400;
-    margin: 0;
-    padding: 0;
-    max-width: 850px;
-    color: #116149;
-
+@media (max-width: 600px) {
+  .btn {
+    width: 90%;
+  }
 }
 
-.box-4-title{
-    font-weight: 600;
-    font-size: 2rem;
-    color: #116149;
+@media (min-width: 990px) {
+  .card-box-1 > ul {
+    margin-left: -2rem;
+    /* border: 2px solid red; */
+  }
 }
 
-.box-4-sub{
-    font-size: calc(16px + (18 - 16) * ((100vw - 540px) / (1140 - 540)));
+.box-3-title {
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  max-width: 850px;
+  color: #116149;
 }
-.container-5{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
+
+.box-4-title {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #116149;
 }
-.image-box-2{
-    
+
+.box-4-sub {
+  font-size: calc(16px + (18 - 16) * ((100vw - 540px) / (1140 - 540)));
+}
+.container-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8rem;
+}
+.image-box-2 {
+}
+.card-box-1{
+    max-width: 500px;
+}
+.card-box-1 > img{
+    max-width: 50%;
 }
