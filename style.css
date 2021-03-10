@@ -1,0 +1,34 @@
+*,*::after, *::before{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box ;
+}
+
+header{
+    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, .3);
+}
+
+.logo-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.header-headline{
+    font-weight: 700;
+}
+
+.header__line{
+    font-size: calc(14px + (16 - 14) * ((100vw - 540px) / (1140 - 540)));
+}
+
+@media (max-width:600px){
+    .btn{
+        width: 90% ;
+    }
+}
+
+.box-3-title{
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    max-width: 800px;
+}
