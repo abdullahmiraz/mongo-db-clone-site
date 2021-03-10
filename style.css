@@ -20,13 +20,16 @@ header {
 }
 
 .header__line {
-  font-size: calc(14px + (16 - 14) * ((100vw - 540px) / (1140 - 540)));
+  font-size: calc(18px + (22 - 18) * ((100vw - 540px) / (1140 - 540)));
 }
 
-.text-muted {
-  font-weight: 600;
-  font-size: 1.001rem;
+.text-muted, .text-mid-dark {
+  font-weight: 600 !important;
+  font-size: 1.001rem !important;
+  margin-top: 2rem;
+
 }
+
 
 @media (max-width: 600px) {
   .btn {
@@ -73,3 +76,4 @@ header {
 .card-box-1 > img{
     max-width: 50%;
 }
+
