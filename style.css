@@ -20,7 +20,7 @@ header {
 }
 
 .header__line {
-  font-size: calc(18px + (22 - 18) * ((100vw - 540px) / (1140 - 540)));
+  font-size: calc(14px + (18 - 14) * ((100vw - 540px) / (1140 - 540)));
 }
 
 .text-muted, .text-mid-dark {
@@ -59,7 +59,8 @@ header {
 }
 
 .box-4-sub {
-  font-size: calc(16px + (18 - 16) * ((100vw - 540px) / (1140 - 540)));
+  font-size: calc(20px + (22 - 20) * ((100vw - 540px) / (1140 - 540)));
+  font-weight: 350;
 }
 .container-5 {
   display: flex;
