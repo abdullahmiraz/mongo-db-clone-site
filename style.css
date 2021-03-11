@@ -23,13 +23,24 @@ header {
   font-size: calc(14px + (18 - 14) * ((100vw - 540px) / (1140 - 540)));
 }
 
-.text-muted, .text-mid-dark {
+.text-muted,
+.text-mid-dark {
   font-weight: 600 !important;
   font-size: 1.001rem !important;
   margin-top: 2rem;
-
+}
+.card-feat .btn {
+  background-color: transparent;
+  color: #13aa52;
+  border: none;
 }
 
+.btn {
+  font-weight: 700;
+  border: #13aa52;
+  color: white;
+  background-color: #13aa52;
+}
 
 @media (max-width: 600px) {
   .btn {
@@ -71,18 +82,48 @@ header {
 }
 .image-box-2 {
 }
-.card-box-1{
-    max-width: 500px;
+.card-box-1 {
+  max-width: 500px;
 }
-.card-box-1 > img{
-    max-width: 50%;
+.card-box-1 > img {
+  max-width: 50%;
 }
 
-.card-body> img{
+.card-body > img {
   margin-bottom: 1rem;
 }
-.card-title{
+.card-title {
   font-size: 1.2rem;
   font-weight: 600;
-  color:#116149 ;
+  color: #116149;
+}
+
+footer a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .fab {
+  margin-right: 0.4rem;
+}
+footer .card {
+  width: 8rem;
+  margin-right: 1rem;
+  transition: all 0.5s ease;
+}
+
+.card-feat .card:hover {
+  /* transform: scaleY(1.03); */
+  position: relative;
+  bottom: 0.3rem;
+  animation: position;
+
+  scroll-behavior: smooth;
+}
+div.container:nth-child(2) {
+  background-color: #eef3fa;
 }
